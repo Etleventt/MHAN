@@ -1,0 +1,13 @@
+/.ipynb_checkpoints
+/ffmx2.log
+/ffmx2_1.log
+/ffmx3.log
+/ffmx4.log
+/ffmx4_continue.log
+/mhx2.log
+/__init__.py
+/__pycache__
+/dataset
+model/__pycache__/__init__.cpython-310.pyc
+data/__pycache__/__init__.cpython-310.pyc
+loss/__pycache__/__init__.cpython-310.pyc
