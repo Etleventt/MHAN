@@ -5,6 +5,9 @@ Repository for the paper Enhancing MR Image Super-Resolution with a Multi-Head A
 ### Abstract
 Magnetic Resonance (MR) imaging is essential for clinical diagnostics, supporting etiological analysis, treatment planning, and disease evaluation. However, MR image quality can be compromised due to factors such as equipment variability, dosage limitations, and patient diversity, resulting in reduced resolution and impaired lesion identification. This study proposes a novel Multi-Head Attention Network (MHAN) to enhance MR image super-resolution. MHAN employs a 3D Multi-Head Attention Mechanism Module (3D-MHead) and a Depth-Width Feature Fusion Module (DW-FFM). The 3D-MHead module adapts attention weights across MR image dimensions to improve feature differentiation, while the DW-FFM combines shallow and deep features for coherent, high-resolution reconstructions. Experiments on various MR imaging datasets demonstrate that MHAN achieves superior performance over existing models, improving quantitative metrics, visual quality, and lesion detectability. Moreover, MHAN exhibits high generalizability, as evidenced by consistent improvements in natural image reconstructions. This study contributes an effective approach for enhancing MR image quality, with implications for advancing diagnostic precision and treatment planning in medical imaging.
 
+### Framework
+![](framework.jpg)
+The framework of our MHAN. It comprises four components, namely the feature extraction module, the deep feature processing module, the feature fusion module, and the reconstruction module.
 
 ### Experimental Platform and Environment
 
